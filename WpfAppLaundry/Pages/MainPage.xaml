@@ -1,0 +1,38 @@
+﻿<Page x:Class="WpfAppLaundry.Pages.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfAppLaundry.Pages"
+      xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+      mc:Ignorable="d" FontFamily="Montserrat"
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="MainPage" >
+
+    <Grid Background="#FFB072AA">
+        <ui:Button Margin="325,135,325,285" Click="Button_Click" Background="#FF520A64" Foreground="White" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" FontSize="14" Height="30" Width="150" FontWeight="Medium">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>КЛИЕНТЫ</ui:Button>
+        <ui:Button Margin="325,185,325,235" Click="Button_Click_1" Background="#FF520A64" Foreground="White" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" FontSize="14" Height="30" Width="150" FontWeight="Medium">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>ЗАКАЗЫ</ui:Button>
+        <ui:Button Margin="325,235,325,185" Click="Button_Click_2" Background="#FF520A64" Foreground="White" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" FontSize="14" Height="30" Width="150" FontWeight="Medium">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>СТАТУСЫ</ui:Button>
+        <ui:Button Margin="325,285,325,135" Click="Button_Click_3" Background="#FF520A64" Foreground="White" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" FontSize="14" Height="30" Width="150" FontWeight="Medium">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>ОТЧЕТЫ</ui:Button>
+    </Grid>
+</Page>
